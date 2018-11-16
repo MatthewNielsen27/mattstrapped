@@ -1,0 +1,25 @@
+supported-stages:
+  setup
+  brew
+  brew-cask
+  git
+
+setup:
+  message:
+    before: "making directories"
+    each: "making directory $target"
+    after: "finished making directories"
+  command:
+    mkdir -p
+
+brew:
+  command:
+    brew install
+
+brew-cask:
+  command:
+    brew cask install
+
+git:
+  command:
+    git -C repos clone

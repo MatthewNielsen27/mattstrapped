@@ -1,0 +1,17 @@
+stages:
+  setup
+  brew
+  brew-cask
+  git
+
+setup:
+  repos
+
+brew:
+  bash
+
+brew-cask:
+  slack
+
+git:
+  git@github.com:kelseyhightower/nocode.git
