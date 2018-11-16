@@ -1,0 +1,8 @@
+google-chrome
+slack
+docker
+steam
+google-cloud-sdk
+visual-studio-code
+spotify
+hyper
