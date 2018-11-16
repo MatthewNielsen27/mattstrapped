@@ -3,12 +3,13 @@ supported-stages:
   brew
   brew-cask
   git
+  pizza
 
 setup:
   message:
-    before: "making directories"
-    each: "making directory $target"
-    after: "finished making directories"
+    before: making directories
+    each: making directory $target
+    after: finished making directories
   command:
     mkdir -p
 
